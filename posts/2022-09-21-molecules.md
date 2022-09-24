@@ -1,6 +1,6 @@
 ---
 title: 'Human title'
-date: 'Sentabr 9 2022'
+date: 'Sentabr 21 2022'
 excerpt: 'This is the excerpt'
 cover_image: '/images/posts/2022-09-21.png'
 ---
