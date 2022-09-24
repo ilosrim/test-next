@@ -14,7 +14,7 @@ const Header = () => {
 
   const navigations = [
     { label: 'Home', path: '/' },
-    { label: 'Blog', path: '/blog' },
+    { label: 'Blogs', path: '/blogs' },
     { label: 'News', path: '/news' },
     { label: 'About', path: '/about' },
   ]

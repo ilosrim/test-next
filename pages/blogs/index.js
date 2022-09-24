@@ -1,12 +1,12 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import Post from '../components/Post'
-import { sortByDate } from '../utils'
+import Post from '../../components/Post'
+import { sortByDate } from '../../utils'
 
 export default function Blog({ posts }){
   return(
-    <section className='container flex justify-between gap-4'>
+    <section className='container grid gap-4 grid-cols-2'>
       {posts.map((post, idx) => (
         <div key={idx}>
           <Post post={post} />

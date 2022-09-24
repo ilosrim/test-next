@@ -1,5 +1,5 @@
 import Hero from '../sections/Hero'
 
-export default function Home({ posts }) {
+export default function Home() {
   return <Hero />
 }
